@@ -1,8 +1,7 @@
-package game;
+package net.neczpal.ecar;
 
 import java.util.ArrayList;
 import org.lwjgl.input.Keyboard;
-import org.lwjgl.openal.AL10;
 
 /**
  *

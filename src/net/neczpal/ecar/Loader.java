@@ -1,4 +1,4 @@
-package game;
+package net.neczpal.ecar;
 
 import java.awt.image.BufferedImage;
 import java.io.*;
@@ -69,20 +69,14 @@ public final class Loader {
         }
     }
     
-    private static Class rootClass = Loader.class;
+    private static String rootDir = new File("").getAbsolutePath();
     
     private static Textures textureCache= new Textures();
     private static Sounds soundCache = new Sounds();
     private static boolean useCache = true;
     
     private Loader (){}
-    /**
-     * Beállitja honan induljon az elérési út
-     * @param c Gyökér osztály
-     */
-    public static void setRootClass(Class c){
-        rootClass = c;
-    }
+
     /**
      * Beállitja hogy használja-e az osztály a gyorsitotárat
      * @param useCache default:true
@@ -370,7 +364,7 @@ public final class Loader {
         
 //        if(in == null){
             try {
-                in = new FileInputStream(new File(rootClass.getResource(filename).toURI()));
+                in = new FileInputStream(rootDir + "/" + filename);
             } catch (Exception ex) {
                 if(in != null){
                     try{

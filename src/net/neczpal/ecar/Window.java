@@ -1,4 +1,4 @@
-package game;
+package net.neczpal.ecar;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -66,15 +66,14 @@ public class Window extends Thread{
         initDisplay();
         initGL();
 
-        Loader.setRootClass(this.getClass());
         Loader.setUseCache(false);
         font = Loader.loadTextures("res/font.png", 8, 8);
-        oil = Loader.loadTexture("res/oil2.png");
-        car = Loader.loadTexture("res/c2.png");
-        sav = Loader.loadTexture("res/sav.png");
-        ut = Loader.loadTexture("res/bg.png");
-        utg = Loader.loadTexture("res/utgagyi.png");
-        gomb = Loader.loadTexture("res/gomb.png");
+        oil = Loader.loadTexture("res/oil.png");
+        car = Loader.loadTexture("res/car.png");
+        sav = Loader.loadTexture("res/line.png");
+        ut = Loader.loadTexture("res/menu.png");
+        utg = Loader.loadTexture("res/road.png");
+        gomb = Loader.loadTexture("res/new_game.png");
         exit = Loader.loadTexture("res/exit.png");
 
         stopped = false;
@@ -91,6 +90,8 @@ public class Window extends Thread{
             Display.update();
         }
         clean();
+
+        System.exit(0);
     }
 
 
