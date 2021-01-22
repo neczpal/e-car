@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="E-Car-Win" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="game.Window" />
+    <module name="E-car" />
+    <option name="VM_PARAMETERS" value=" -Djava.library.path=natives/osx" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
