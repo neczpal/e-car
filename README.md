@@ -5,8 +5,8 @@ You are with and electric car
 how much gasoline can you spare.
 
 <p float="left">
-    <img src="https://github.com/neczpal/e-car/raw/master/img/screenshot_main.png" width="200" />
-    <img src="https://github.com/neczpal/e-car/raw/master/img/screenshot_game.png" width="200" />
+    <img src="https://github.com/neczpal/e-car/raw/master/res/screenshot_main.png" width="200" />
+    <img src="https://github.com/neczpal/e-car/raw/master/res/screenshot_game.png" width="200" />
 </p>
 
 ## Setup
