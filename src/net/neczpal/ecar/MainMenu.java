@@ -1,4 +1,4 @@
-package game;
+package net.neczpal.ecar;
 
 import org.lwjgl.input.Mouse;
 
