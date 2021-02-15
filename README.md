@@ -1,8 +1,7 @@
 # E-car
 
 Simple 2d avoid obstacles game.
-You are with and electric car
-how much gasoline can you spare.
+You are with an electric car trying to avoid oil cans.
 
 <p float="left">
     <img src="https://github.com/neczpal/e-car/raw/master/res/screenshot_main.png" width="200" />
@@ -31,7 +30,7 @@ Arrows left and right
 
 ## License
 
-All Rights Reserved.
+MIT
 
 Copyright (c) 2021 Neczpál Ábel.
 
@@ -44,4 +43,4 @@ however, please contact me before doing so.
 
 Neczpál Ábel - [neczpal@gmail.com](mailto:neczpal@gmail.com)
 
-Project Link: [https://github.com/neczpal/e-car](https://github.com/neczpal/e-car)
+Project Link - [https://github.com/neczpal/e-car](https://github.com/neczpal/e-car)
